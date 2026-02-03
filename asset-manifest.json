@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/ecomzy-mern-minor-project-v2/static/css/main.ef48013c.css",
+    "main.js": "/ecomzy-mern-minor-project-v2/static/js/main.827e0e19.js",
+    "index.html": "/ecomzy-mern-minor-project-v2/index.html",
+    "main.ef48013c.css.map": "/ecomzy-mern-minor-project-v2/static/css/main.ef48013c.css.map",
+    "main.827e0e19.js.map": "/ecomzy-mern-minor-project-v2/static/js/main.827e0e19.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ef48013c.css",
+    "static/js/main.827e0e19.js"
+  ]
+}
