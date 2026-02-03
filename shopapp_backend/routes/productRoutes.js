@@ -16,30 +16,6 @@ router.post("/", async (req, res) => {
   res.json(savedProduct);
 });
 
-// router.post("/", async (req, res) => {
-//   try {
-//     const newOrder = new Order(req.body);
-//     const savedOrder = await newOrder.save();
-//     res.status(201).json(savedOrder);
-//   } catch (err) {
-//     res.status(500).json({ error: "Order save failed" });
-//   }
-// });
-// router.post("/", async (req, res) => {
-//   try {
-//     console.log("Incoming order:", req.body); // 👈 DEBUG
 
-//     const order = new Order({
-//       items: req.body.items,
-//       totalAmount: req.body.totalAmount,
-//     });
-
-//     const savedOrder = await order.save();
-//     res.status(201).json(savedOrder);
-//   } catch (error) {
-//     console.log(error);
-//     res.status(500).json({ error: "Order save failed" });
-//   }
-// });
 
 module.exports = router;
